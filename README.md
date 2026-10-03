@@ -13,7 +13,7 @@ misaka.railgun()
 - 音游 & 摄影
 - 推御坂美琴
 
-<p align='center'><img src="https://visitor-badge.laobi.icu/badge?page_id=misakano7545&left_text=visits" alt="visits" /></p>
+<p align='center'><img src="https://count.himiku.com/@misakano?theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="visits" /></p>
 
 ![skills](https://skillicons.dev/icons?i=bash,py,go,js,html,css,linux,ubuntu,nginx,docker,mysql,redis,git,github,vscode,ps,pr,ae,cloudflare,md)
 
