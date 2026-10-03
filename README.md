@@ -6,7 +6,7 @@
 
 <h1 align="center">小御坂 / MisakaNo</h1>
 
-<p align="center"><strong>Development · IT Operations · Project SEKAI / maimai · Misaka Mikoto Fan</strong></p>
+<p align="center"><strong>Development · IT Operations · Project SEKAI / maimai / Phigros / Muse Dash · Misaka Mikoto Fan</strong></p>
 
 <p align="center">2006 / China / GuangXi</p>
 
