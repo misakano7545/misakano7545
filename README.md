@@ -21,8 +21,6 @@ misaka.railgun()
 
 > 想做的事，先做了再说。
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=misakano7545&show_icons=true&count_private=true&theme=dracula)
-
 # Contact
 
 - **Email:** [misakano@qq.com](mailto:misakano@qq.com)
@@ -42,8 +40,6 @@ QQ 群（扫码加入）：
 - `Bash`
 - `JavaScript`
 - `Go`
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=misakano7545&layout=compact&theme=dracula&langs_count=6)
 
 # Hobbies
 
