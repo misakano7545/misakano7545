@@ -15,7 +15,7 @@ misaka.railgun()
 
 <p align='center'><img src="https://count.getloli.com/@misakano?name=misakano&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="visits" /></p>
 
-![skills](https://skillicons.dev/icons?i=bash,py,go,rs,js,html,css,linux,ubuntu,nginx,docker,mysql,redis,git,github,vscode,ps,pr,ae,cloudflare,md)
+![skills](https://skillicons.dev/icons?i=bash,py,go,js,html,css,linux,ubuntu,nginx,docker,mysql,redis,git,github,vscode,ps,pr,ae,cloudflare,md)
 
 # Motto
 
