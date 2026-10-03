@@ -19,10 +19,12 @@
 | My Blog | [misakano.cn](https://www.misakano.cn/) |
 | Email | [misakano@qq.com](mailto:misakano@qq.com) |
 | 微信公众号 | 小御坂的避难所 |
-| QQ 群 | 小御坂音游交通协会（110249150） |
+| QQ 群 1 | 小御坂音游交通协会（110249150） |
+| QQ 群 2 | 小御坂音游交通协会（879462280） |
 
 <p align="center">
-  <img src="assets/qq-group.png" width="180" alt="QQ 群 110249150" />
+  <img src="assets/qq-group.png" width="150" alt="QQ 群 110249150" />
+  <img src="assets/qq-group-2.png" width="150" alt="QQ 群 879462280" />
 </p>
 
 ---
