@@ -82,7 +82,7 @@ misaka.railgun()
 <tr>
 <td width="50%">
 
-<h3 align="center">🔌 workbuddy2api-panel</h3>
+<h3 align="center">workbuddy2api-panel</h3>
 
 <div align="center">
 
@@ -95,7 +95,7 @@ misaka.railgun()
 </td>
 <td width="50%">
 
-<h3 align="center">🧭 traework2api-panel</h3>
+<h3 align="center">traework2api-panel</h3>
 
 <div align="center">
 
