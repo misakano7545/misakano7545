@@ -67,6 +67,14 @@ misaka.railgun()
 
 ---
 
+### 📊 GitHub Stats
+
+<div align="center">
+  <img src="assets/metrics.svg" alt="GitHub Stats" />
+</div>
+
+---
+
 ### 🔥 Featured Projects
 
 <table>
@@ -169,6 +177,17 @@ misaka.railgun()
 - 看番（超电磁炮 / 孤独摇滚）
 - 明日方舟
 - 折腾电子数码 & 硬件
+
+---
+
+### 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
+    <img src="assets/snake.svg" alt="Contribution Snake" />
+  </picture>
+</div>
 
 ---
 
