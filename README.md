@@ -1,57 +1,166 @@
-<h1 align='center'>👋 Hello!</h1>
+<div align="center">
+
+# Hi there, I'm 小御坂 / MisakaNo 👋
+
+**会折腾电子数码和写代码的大学生 · 常驻广西**
+
+*Project SEKAI / maimai / Phigros / Muse Dash · 御坂美琴推*
+
+</div>
+
+---
 
 ```python
 misaka = MisakaMikoto(level=5)
 misaka.railgun()
 ```
 
-# About
+---
 
-大家好这里是小御坂（`MisakaNo`），一位会折腾电子数码和写代码的大学生，想了解更多可以看我的[博客](https://www.misakano.cn/)。
+### 🧑‍💻 About Me
 
-- 大学生
-- 音游 & 摄影
-- 推御坂美琴
+- 🎓 大学生，常驻广西
+- 🔭 目前在折腾：**服务器运维**、**Windows 机房 / 装机**、各种小工具
+- ✍️ 写点东西：[博客](https://www.misakano.cn/)
+- 💡 「想做的事，先做了再说。」
 
-<p align='center'><img src="https://count.himiku.com/@misakano?theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="visits" /></p>
+---
 
-# Tech Stack
+### 🛠 Tech Stack
 
-[![Python](https://img.shields.io/badge/python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-[![Shell](https://img.shields.io/badge/shell-%23121011.svg?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+<table>
+<tr>
+<td align="center" width="33%">
 
-[![Linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/)
-[![Ubuntu](https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org/)
-[![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Redis](https://img.shields.io/badge/redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
-[![Cloudflare](https://img.shields.io/badge/cloudflare-%23F38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.cloudflare.com/)
+**Languages**
 
-[![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
+![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Go](https://img.shields.io/badge/go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Shell](https://img.shields.io/badge/shell-121011?style=flat-square&logo=gnubash&logoColor=white)
 
-# Motto
+</td>
+<td align="center" width="33%">
 
-> 想做的事，先做了再说。
+**Runtime & Cloud**
 
-# Contact
+![Linux](https://img.shields.io/badge/linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</td>
+<td align="center" width="33%">
+
+**Tools & Platforms**
+
+![MySQL](https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Git](https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🔥 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+<h3 align="center">🧰 StuLabAgent</h3>
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/misakano7545/StuLabAgent?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/StuLabAgent)
+
+</div>
+
+基于 Python 的 Windows 机房管理工具，教师端 + 学生端 Agent 架构。
+
+</td>
+<td width="50%">
+
+<h3 align="center">🔌 workbuddy2api-panel</h3>
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/misakano7545/workbuddy2api-panel?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/workbuddy2api-panel)
+
+</div>
+
+把 WorkBuddy 账号变成 OpenAI 兼容 API 的多账号网关，带 Web 管理面板（Go）。
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<h3 align="center">📦 OpenSysprep</h3>
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/misakano7545/OpenSysprep?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/OpenSysprep)
+
+</div>
+
+「系统封装」场景的开源工具，用 Rust 重写核心能力（进行中）。
+
+</td>
+<td width="50%">
+
+<h3 align="center">📋 it-task-reporting</h3>
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/misakano7545/it-task-reporting?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/it-task-reporting)
+
+</div>
+
+确定性的任务台账与汇报生成工具，少手写、少出错。
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🎯 Focus Areas
+
+```
+┌──────────────────────────────────────────────────┐
+│                                                  │
+│   🖥 服务器运维             ████████████░░  85%   │
+│   🧰 Windows 机房 / 装机   ████████████░░  85%   │
+│   💻 开发（Python / Go）   █████████░░░░░  65%   │
+│   🎵 音游                  █████████████░  90%   │
+│   📷 摄影                  ██████████░░░░  70%   │
+│                                                  │
+└──────────────────────────────────────────────────┘
+```
+
+---
+
+### 📫 Contact
 
 - **Email:** [misakano@qq.com](mailto:misakano@qq.com)
 - **Blog:** [misakano.cn](https://www.misakano.cn/)
 - **微信公众号:** 小御坂的避难所
+- **QQ 群:** 110249150 / 879462280
 
-QQ 群（扫码加入）：
-
-<p align='center'>
-  <img src='assets/qq-group.png' width='150' alt='QQ 群 110249150' />
-  <img src='assets/qq-group-2.png' width='150' alt='QQ 群 879462280' />
+<p align="center">
+  <img src="assets/qq-group.png" width="150" alt="QQ 群 110249150" />
+  <img src="assets/qq-group-2.png" width="150" alt="QQ 群 879462280" />
 </p>
 
-# Hobbies
+---
+
+### 🎮 Hobbies
 
 - 音游（Project SEKAI / maimai / Phigros / Muse Dash）
 - 术力口 / Vocaloid
@@ -60,3 +169,13 @@ QQ 群（扫码加入）：
 - 看番（超电磁炮 / 孤独摇滚）
 - 明日方舟
 - 折腾电子数码 & 硬件
+
+---
+
+<div align="center">
+
+**Thanks for visiting!**
+
+<img src="https://count.himiku.com/@misakano?theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="visits" />
+
+</div>
