@@ -81,19 +81,6 @@ misaka.railgun()
 <tr>
 <td width="50%">
 
-<h3 align="center">🧰 StuLabAgent</h3>
-
-<div align="center">
-
-[![Stars](https://img.shields.io/github/stars/misakano7545/StuLabAgent?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/StuLabAgent)
-
-</div>
-
-基于 Python 的 Windows 机房管理工具，教师端 + 学生端 Agent 架构。
-
-</td>
-<td width="50%">
-
 <h3 align="center">🔌 workbuddy2api-panel</h3>
 
 <div align="center">
@@ -105,32 +92,17 @@ misaka.railgun()
 把 WorkBuddy 账号变成 OpenAI 兼容 API 的多账号网关，带 Web 管理面板（Go）。
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
-<h3 align="center">📦 OpenSysprep</h3>
+<h3 align="center">🧭 traework2api-panel</h3>
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/misakano7545/OpenSysprep?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/OpenSysprep)
+[![Stars](https://img.shields.io/github/stars/misakano7545/traework2api-panel?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/traework2api-panel)
 
 </div>
 
-「系统封装」场景的开源工具，用 Rust 重写核心能力（进行中）。
-
-</td>
-<td width="50%">
-
-<h3 align="center">📋 it-task-reporting</h3>
-
-<div align="center">
-
-[![Stars](https://img.shields.io/github/stars/misakano7545/it-task-reporting?style=flat-square&logo=starship&color=58A6FF)](https://github.com/misakano7545/it-task-reporting)
-
-</div>
-
-确定性的任务台账与汇报生成工具，少手写、少出错。
+TRAE Work 的 OpenAI 兼容反向代理：多账号轮转、自动签到、token 自动刷新（纯 Go，零依赖）。
 
 </td>
 </tr>
