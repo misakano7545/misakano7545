@@ -1,9 +1,9 @@
 # 通用规则
 
-我名下仓库的通用约定。这份文件本身就是规则源：拷到任何仓库的根目录，就成那个仓库的 `AGENTS.md`。
+我名下仓库的通用约定。本文件是规则源，放在 `agent-docs/` 下不会被 agent 自动加载；要用时拷到目标仓库根目录并改名 `AGENTS.md`。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/misakano7545/misakano7545/main/AGENTS.md -o AGENTS.md
+gh api repos/misakano7545/misakano7545/contents/agent-docs/common-agent.md --jq .content | base64 -d > AGENTS.md
 ```
 
 `AGENTS.md` 只在仓库根目录（cwd）生效，agent 工具不会向上找，所以放子目录没用。各仓库可以另写自己的 `AGENTS.md` 补充，仓库本地的为准。

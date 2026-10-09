@@ -23,7 +23,7 @@ misaka.railgun()
 - 🔭 目前在折腾：**服务器运维**、**Windows 机房 / 装机**、各种小工具
 - 🚌 2026年9月13日，与玉林市公共汽车公司车队合作包车，进行25路的后代G02路的活动摆拍
 - ✍️ 写点东西：[博客](https://www.misakano.cn/)
-- 📐 开发通用规则：[AGENTS.md](AGENTS.md)
+- 📐 开发通用规则：[agent-docs](agent-docs/common-agent.md)
 - 💡 「想做的事，先做了再说。」
 
 ---
