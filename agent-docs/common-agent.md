@@ -10,9 +10,10 @@ gh api repos/misakano7545/misakano7545/contents/agent-docs/common-agent.md --jq 
 
 ## 提交信息
 
-- type 前缀带英文小写，标题用中文：`docs: 新增资产登记流程初版`。
-- 分隔符是半角 `:` 加一个空格。
-- 句末不加句号。
+- 格式 `type(scope): 描述`，type 用英文小写。常用 `feat`、`fix`、`chore`、`ci`；`refactor`、`docs`、`test`、`style`、`ui`、`revert` 各 1~4 条。
+- scope 取本仓模块名。跨模块或全局改动就不写 scope，别硬凑——约 22% 的提交不带 scope：`docs: 新增资产登记流程初版`。
+- 分隔符是半角 `:` 加一个空格。描述用中文，标题显示宽度中位 57 列，句末不加句号。
+- 破坏性改动在 type 后加 `!`：`feat(server)!: 移除 server.max_body_mb 预拦截——大请求交由上游自然响应`。
 - 不加 footer（`Co-Authored-By`、`BREAKING CHANGE`）。
 - 有实质改动就写正文，一条一个 `- `；纯改错别字可省。
 - 要追溯就标来源：`（同步上游 #92 · 5e0adb3）`。
