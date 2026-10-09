@@ -3,7 +3,7 @@
 我名下仓库的通用约定。这份文件本身就是规则源：拷到任何仓库的根目录，就成那个仓库的 `AGENTS.md`。
 
 ```bash
-cp /path/to/this/AGENTS.md .
+curl -fsSL https://raw.githubusercontent.com/misakano7545/misakano7545/main/AGENTS.md -o AGENTS.md
 ```
 
 `AGENTS.md` 只在仓库根目录（cwd）生效，agent 工具不会向上找，所以放子目录没用。各仓库可以另写自己的 `AGENTS.md` 补充，仓库本地的为准。
