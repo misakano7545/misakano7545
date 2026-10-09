@@ -19,7 +19,7 @@ gh api repos/misakano7545/misakano7545/contents/agent-docs/common-agent.md --jq 
 
 ## 命名
 
-- 目录名、文件名一律中文，不加英文别名（不要 `asset-资产登记.md`）。
+- 文档文件夹的目录名、文件名除特殊情况外一律中文，其他照常。
 - 文档文件夹用英文 `docs`，不用中文「文档」；里面的文件名仍用中文。
 - 其余例外只有工具认死的名字：`README.md`（GitHub 只认它渲染仓库首页）、`AGENTS.md`（agent 工具只认这个名字）。
 - **会上传或被服务端解析的文件名用 ASCII**：平台上传的图片、要拼进 URL 的产物、给外部系统读的文件。目录名用中文没有代价，因为不上传。
