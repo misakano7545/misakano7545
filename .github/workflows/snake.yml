@@ -14,26 +14,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: misakano7545
           outputs: |
-            assets/snake.svg
-            assets/snake-dark.svg?palette=github-dark
+            assets/snake.gif
+            assets/snake-dark.gif?palette=github-dark&color_background=#0d1117
 
-      # 冻结动画 + 半尺寸裁边：377 格逐个跑 fill 动画会常驻 1–2 核
-      - name: Freeze & shrink snake
+      # GIF 由解码器逐帧绘制；SVG 版是 377 个格子各跑一条 CSS 动画，常驻 1–2 核
+      - name: Shrink gifs to half width
         run: |
-          for f in assets/snake.svg assets/snake-dark.svg; do
-            sed -i 's|</style>|*{animation-play-state:paused!important;animation-delay:-4990ms!important}.u{display:none!important}</style>|' "$f"
-            sed -i 's|viewBox="-16 -32 880 192" width="880" height="192"|viewBox="0 0 848 104" width="440" height="54"|' "$f"
-            grep -q 'animation-play-state:paused' "$f" && grep -q 'viewBox="0 0 848 104"' "$f" || { echo "snk output format changed: $f"; exit 1; }
+          command -v ffmpeg >/dev/null || { echo "ffmpeg missing on runner"; exit 1; }
+          for f in assets/snake.gif assets/snake-dark.gif; do
+            ffmpeg -y -v error -i "$f" \
+              -vf "scale=440:-1:flags=neighbor,split[a][b];[a]palettegen=stats_mode=diff[p];[b][p]paletteuse=dither=none" \
+              -gifflags +transdiff -loop 0 "$f.new.gif"
+            mv "$f.new.gif" "$f"
+            [ "$(stat -c%s "$f")" -lt 400000 ] || { echo "gif too big: $f"; exit 1; }
           done
 
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/snake.svg assets/snake-dark.svg
+          git add assets/snake.gif assets/snake-dark.gif
           git diff --staged --quiet || git commit -m "chore: update contribution snake"
           git push

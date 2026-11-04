@@ -158,8 +158,8 @@ TRAE Work 的 OpenAI 兼容反向代理：多账号轮转、自动签到、token
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
-    <img src="assets/snake.svg" alt="Contribution Snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.gif" />
+    <img src="assets/snake.gif" alt="Contribution Snake" />
   </picture>
 </div>
 
