@@ -26,7 +26,7 @@ jobs:
         run: |
           sudo apt-get install -y -qq gifsicle
           for f in assets/snake.gif assets/snake-dark.gif; do
-            gifsicle --resize-width 440 --optimize=3 --loopcount=0 "$f" -o "$f.new.gif"
+            gifsicle --resize-width 660 --optimize=3 --loopcount=0 "$f" -o "$f.new.gif"
             mv "$f.new.gif" "$f"
             [ "$(stat -c%s "$f")" -lt 400000 ] || { echo "gif too big: $f"; exit 1; }
           done
