@@ -21,6 +21,15 @@ jobs:
             assets/snake.svg
             assets/snake-dark.svg?palette=github-dark
 
+      # 冻结动画 + 半尺寸裁边：377 格逐个跑 fill 动画会常驻 1–2 核
+      - name: Freeze & shrink snake
+        run: |
+          for f in assets/snake.svg assets/snake-dark.svg; do
+            sed -i 's|</style>|*{animation-play-state:paused!important;animation-delay:-14970ms!important}.u{display:none!important}</style>|' "$f"
+            sed -i 's|viewBox="-16 -32 880 192" width="880" height="192"|viewBox="0 0 848 104" width="440" height="54"|' "$f"
+            grep -q 'animation-play-state:paused' "$f" && grep -q 'viewBox="0 0 848 104"' "$f" || { echo "snk output format changed: $f"; exit 1; }
+          done
+
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
