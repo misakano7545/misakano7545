@@ -21,14 +21,12 @@ jobs:
             assets/snake.gif
             assets/snake-dark.gif?palette=github-dark&color_background=#0d1117
 
-      # GIF 由解码器逐帧绘制；SVG 版是 377 个格子各跑一条 CSS 动画，常驻 1–2 核
+      # GIF 由解码器逐帧绘制；SVG 版是 377 个格子各跑一条 CSS 动画，常驻 2.4 核
       - name: Shrink gifs to half width
         run: |
-          command -v ffmpeg >/dev/null || { echo "ffmpeg missing on runner"; exit 1; }
+          sudo apt-get install -y -qq gifsicle
           for f in assets/snake.gif assets/snake-dark.gif; do
-            ffmpeg -y -v error -i "$f" \
-              -vf "scale=440:-1:flags=neighbor,split[a][b];[a]palettegen=stats_mode=diff[p];[b][p]paletteuse=dither=none" \
-              -gifflags +transdiff -loop 0 "$f.new.gif"
+            gifsicle --resize-width 440 --optimize=3 --loopcount=0 "$f" -o "$f.new.gif"
             mv "$f.new.gif" "$f"
             [ "$(stat -c%s "$f")" -lt 400000 ] || { echo "gif too big: $f"; exit 1; }
           done
