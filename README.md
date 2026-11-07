@@ -142,6 +142,24 @@ TRAE Work 的 OpenAI 兼容反向代理：多账号轮转、自动签到、token
 
 ---
 
+### ☕ 赞助支持
+
+如果这个项目或我的分享帮到了你，欢迎在[爱发电](https://afdian.com/a/Misaka-blog)为我发电，请我喝一杯 ☕
+
+<p align="center">
+  <a href="https://afdian.com/a/Misaka-blog">
+    <img src="assets/afdian-misakano.jpg" width="280" alt="爱发电 · 赞助 MisakaNo" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://afdian.com/a/Misaka-blog">
+    <img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-%E8%B5%9E%E5%8A%A9%20MisakaNo-946CE6?style=for-the-badge" alt="爱发电" />
+  </a>
+</p>
+
+---
+
 ### 🎮 Hobbies
 
 - 音游（Project SEKAI / maimai / Phigros / Muse Dash）
